@@ -1,0 +1,48 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+#  TEMPORAL SIGNAL FILTER LAB - DEPENDENCIES
+#  "Feed the machine"
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ── Core Deep Learning ─────────────────────────────────────────────────────────
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ── Scientific Computing ──────────────────────────────────────────────────────
+numpy>=1.24.0
+scipy>=1.10.0
+
+# ── Data Handling ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Progress & Logging ────────────────────────────────────────────────────────
+tqdm>=4.65.0
+tensorboard>=2.12.0
+
+# ── Experiment Management ─────────────────────────────────────────────────────
+omegaconf>=2.3.0
+hydra-core>=1.3.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+einops>=0.6.0
+typing-extensions>=4.5.0
+
+# ── REAL DATA SUPPORT (Required for PhysioNet, LibriSpeech, UCI HAR) ─────────
+wfdb>=4.0.0           # PhysioNet PTB-XL ECG
+soundfile>=0.12.0     # LibriSpeech audio
+librosa>=0.10.0       # Audio processing
+tonic>=1.0.0          # Neuromorphic datasets (for future SNN exp)
+
+# ── Optional: GPU Acceleration ────────────────────────────────────────────────
+# cupy-cuda11x>=12.0.0  # Uncomment for CUDA 11.x
+# cupy-cuda12x>=12.0.0  # Uncomment for CUDA 12.x
+
+# ── Development ───────────────────────────────────────────────────────────────
+# pytest>=7.3.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.0.0

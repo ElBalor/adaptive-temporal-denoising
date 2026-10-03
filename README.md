@@ -289,4 +289,6 @@ Time: 41.2s | Total: 0.01h | Best Val Loss: 1.0892 | Best Val SNR: 7.42 dB
 
 *Architecture: Multi-Scale TCN + Point-Wise Attention + Trinity Bottleneck + Strict Causality*
 
+*From the Grimoire of Elbàlor — The Digital Necromancer 💀🔥*
+
 </div>
